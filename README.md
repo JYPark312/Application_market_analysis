@@ -124,4 +124,5 @@ def elbow(X):
 elbow(cluster_data)
 ```
 ![image](https://user-images.githubusercontent.com/70933580/164174360-14a656f5-df51-411f-ad36-47e74c214597.png)
+
 적정 클러스터 4로 설정
