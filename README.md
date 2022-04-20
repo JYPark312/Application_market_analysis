@@ -134,7 +134,16 @@ elbow(cluster_data)
 ### Clustring result / Cluster-naming
 - 클러스터의 지표 별 값 정리
 ![image](https://user-images.githubusercontent.com/70933580/164176109-760beeda-73bd-4597-bcdf-8129b5778c5f.png)
-![image](https://user-images.githubusercontent.com/70933580/164176747-78acc2c4-633f-483d-961c-cb847816c77c.png)
+C1: Fast & Responsible
+빠른 피드백 버그 수정, 안정화 작업을 함(Critical Crush, Bug Count, Stability Count)
+업데이트를 가장 자주 시행함(AUPW)
+지속적인 신기술 도입과, 관리, 보수를 시행(APMaM & APMiM)
+이전 업데이트와 유사한 업데이트를 자주 진행 함(Patch Similarity)
+주요 카테고리: News, Finance, Business, Lifestyle, Social Networking
+대표 어플: 알리 익스프레스, iCatcher! Podcast player, CNN
+일상 생활과 관련되어 있는 카테고리
+오류가 발생했을 경우 신속하게 대처해야 이용자들이 불편을 느끼지 않음
+
 
 
 
