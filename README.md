@@ -7,3 +7,5 @@
 
 ### Keywork
 - update note, market analysis, clustering
+
+### 데이터 수집 
