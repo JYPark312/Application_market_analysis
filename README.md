@@ -132,6 +132,9 @@ elbow(cluster_data)
 ![image](https://user-images.githubusercontent.com/70933580/164175960-abb569fa-7c59-43b3-88a7-42cccff2bb76.png)
 
 ### Clustring result / Cluster-naming
+- 클러스터의 지표 별 값 정리
 ![image](https://user-images.githubusercontent.com/70933580/164176109-760beeda-73bd-4597-bcdf-8129b5778c5f.png)
+![image](https://user-images.githubusercontent.com/70933580/164176747-78acc2c4-633f-483d-961c-cb847816c77c.png)
+
 
 
