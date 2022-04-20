@@ -126,3 +126,12 @@ elbow(cluster_data)
 ![image](https://user-images.githubusercontent.com/70933580/164174360-14a656f5-df51-411f-ad36-47e74c214597.png)
 
 적정 클러스터 4로 설정
+
+### Anova test를 통한 클러스터 지표 구분
+- NMiC의 p-value가 0.05보다 크기 때문에 해석에서 제외
+![image](https://user-images.githubusercontent.com/70933580/164175960-abb569fa-7c59-43b3-88a7-42cccff2bb76.png)
+
+### Clustring result / Cluster-naming
+![image](https://user-images.githubusercontent.com/70933580/164176109-760beeda-73bd-4597-bcdf-8129b5778c5f.png)
+
+
