@@ -15,7 +15,7 @@ from sklearn.cluster import AgglomerativeClustering
 from sklearn import decomposition
 ###k means
 
-data=pd.read_excel('C:/Users/young/OneDrive/바탕 화면/논문 관련 자료/application clustering/end_data.xlsx')
+data=pd.read_excel('./end_data.xlsx')
 cluster_data=data.drop(columns=['appname', 'price', 'k-means', 'agg', 'GMM', 'mini_batch_kmeans', 'category'])
 
 # elbow 기법으로 cluster 객수 찾기
