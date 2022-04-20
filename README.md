@@ -99,3 +99,4 @@ for number in range(0, len(link_list)):
 wb.save("data.xlsx")
 ```
 
+### 분석을 위한 지표 
