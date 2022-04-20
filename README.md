@@ -104,3 +104,24 @@ wb.save("data.xlsx")
 ![image](https://user-images.githubusercontent.com/70933580/164172453-9a8161ce-5b90-45bb-9ddf-439be74ca238.png)
 ![image](https://user-images.githubusercontent.com/70933580/164172488-7592d3b8-2e84-404b-b867-91467ed181cc.png)
 ![image](https://user-images.githubusercontent.com/70933580/164172509-fe2f1796-27b8-47e3-a6d6-71e22f86a6bc.png)
+
+### 수집 데이터로 지표 계산 후 클러스터링 시행
+- 클러스터 수 계산을 위한 elbow 기법
+```python
+# elbow 기법으로 cluster 객수 찾기
+def elbow(X):
+    sse =[]
+    for i in range(1, 15):
+        km = KMeans(n_clusters=i, algorithm='auto', random_state=42)
+        km.fit(X)
+        sse.append(km.inertia_)
+    
+    plt.plot(range(1,15), sse, marker = 'o')
+    plt.xlabel('K')
+    plt.ylabel('SSE')
+    plt.show()
+
+elbow(cluster_data)
+```
+![image](https://user-images.githubusercontent.com/70933580/164174360-14a656f5-df51-411f-ad36-47e74c214597.png)
+적정 클러스터 4로 설정
