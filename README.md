@@ -134,16 +134,43 @@ elbow(cluster_data)
 ### Clustring result / Cluster-naming
 - 클러스터의 지표 별 값 정리
 ![image](https://user-images.githubusercontent.com/70933580/164176109-760beeda-73bd-4597-bcdf-8129b5778c5f.png)
-C1: Fast & Responsible
-빠른 피드백 버그 수정, 안정화 작업을 함(Critical Crush, Bug Count, Stability Count)
-업데이트를 가장 자주 시행함(AUPW)
-지속적인 신기술 도입과, 관리, 보수를 시행(APMaM & APMiM)
-이전 업데이트와 유사한 업데이트를 자주 진행 함(Patch Similarity)
-주요 카테고리: News, Finance, Business, Lifestyle, Social Networking
-대표 어플: 알리 익스프레스, iCatcher! Podcast player, CNN
-일상 생활과 관련되어 있는 카테고리
-오류가 발생했을 경우 신속하게 대처해야 이용자들이 불편을 느끼지 않음
 
+- C1: Fast & Responsible
+    - 빠른 피드백 버그 수정, 안정화 작업을 함(Critical Crush, Bug Count, Stability Count)
+    - 업데이트를 가장 자주 시행함(AUPW)
+    - 지속적인 신기술 도입과, 관리, 보수를 시행(APMaM & APMiM)
+    - 이전 업데이트와 유사한 업데이트를 자주 진행 함(Patch Similarity)
+    - 주요 카테고리: News, Finance, Business, Lifestyle, Social Networking
+    - 대표 어플: 알리 익스프레스, iCatcher! Podcast player, CNN
+    - 일상 생활과 관련되어 있는 카테고리
+    - 오류가 발생했을 경우 신속하게 대처해야 이용자들이 불편을 느끼지 않음
 
+- C2: Young & Innovation Focused
+    - 대부분 시장에 진입한지 얼마 되지 않음(Low DoM)
+    - 혁신을 가장 빨리 도입함(PFM & NMaC)
+    - 신 기술을 많이 자주 도입함(PMiM)
+    - 주요 카테고리: Game, Education, Graphics, Books, Health Category
+    - 대표 어플:The Room, ScreenKit, AutoSleep Track Sleep
+    - 새로운 서비스, 기술을 적용하고 사용하고자 하는 카테고리
+    - Game Graphic의 발전, 웨어러블 기기의 도입과 같은 변화로 인해 새로운 기능을 자주 도입 함!
+
+- C3: Sustaining & Safe Improvement
+    - 기존 서비스, 기능을 유지하는 기간이 김(High APMiM)
+    - 마켓에 가장 오랫동안 존재함(High DoM)
+    - 업데이트를 많이 하지 않음(Low AUPW)
+    - 주요 카테고리: Weather, Navigation, Medical, Reference, Sports
+    - 대표 어플: Dark Sky Weather, Paypal, Land Nav Assistant Gammon Applications
+    - 출시 초기 서비스 질과 앱의 안정성이 중요한 카테고리 
+    - 해당 카테고리에 속한 앱의 경우 급격한 변화는 소비자가 앱 사용에 있어 이질감을 느낄 수 있음
+
+- C4: Silence & Avoiding
+    - 일주일에 패치하는 횟수가 낮음(Low AUPW)
+    - 버그 수정, 안정화, 신기능 추가 빈도가 낮음(Low Bug, New, Stability Count)
+    - 가장 낮은 평점(Low Average Rating)
+    - 유료 어플리케이션 54%, 무료 어플리케이션 46%
+    - 주요 카테고리: Shopping, Developer Tools, Utilities
+    - 대표 어플: Barcode Scanner, OpenTerm, iAmNotiFied
+    - 해당 카테고리에 속한 앱의 경우 시장 상황 업데이트나, 기술 업데이트가 중요 함
+    - 다른 클러스터에 비해 유로 어플리케이션의 비중이 높음에도 업데이트가 미비 함
 
 
