@@ -131,6 +131,53 @@ elbow(cluster_data)
 - NMiC의 p-value가 0.05보다 크기 때문에 해석에서 제외
 ![image](https://user-images.githubusercontent.com/70933580/164175960-abb569fa-7c59-43b3-88a7-42cccff2bb76.png)
 
+### k-means clustering 사용
+- clustering method에 다른 클러스터링 사용 방법 포함
+```python
+#k-means
+model = KMeans(n_clusters = 4, algorithm='auto')
+model.fit(cluster_data)
+predict = pd.DataFrame(model.predict(cluster_data))
+predict.columns = ['predict']
+label = model.fit(cluster_data).labels_
+cluster_data['k-means']=label
+
+#agg
+agg = AgglomerativeClustering(n_clusters=4)
+agg.fit(cluster_data)
+assign = agg.fit_predict(cluster_data)
+y_pred = agg.labels_
+label = agg.fit(cluster_data).labels_
+
+cluster_data['k-agg']=label
+
+#GMM
+from sklearn.mixture import GaussianMixture
+gmm = GaussianMixture(n_components=4)
+gmm.fit(cluster_data)
+label = gmm.predict(cluster_data)
+
+cluster_data['GMM']=label
+
+#minibatch
+from sklearn.cluster import MiniBatchKMeans
+model = MiniBatchKMeans(n_clusters=4, batch_size=100)
+model.fit(cluster_data)
+label = model.fit(cluster_data).labels_
+
+cluster_data['mini_batch_kmeans']=label
+
+y_km = model.fit_predict(cluster_data)
+plotSilhouette(cluster_data, y_km)
+
+#SpectralClustering
+from sklearn.cluster import SpectralClustering
+model = SpectralClustering(n_clusters=4, assign_labels='discretize')
+model.fit(cluster_data)
+label = model.labels_
+cluster_data['SpectralClustering'] = label
+```
+
 ### Clustring result / Cluster-naming
 - 클러스터의 지표 별 값 정리
 ![image](https://user-images.githubusercontent.com/70933580/164176109-760beeda-73bd-4597-bcdf-8129b5778c5f.png)
